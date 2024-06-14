@@ -1,0 +1,166 @@
+import { StyleSheet } from 'react-native';
+import { Platform } from 'react-native';
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#ffffff',
+      paddingHorizontal: 20,
+      paddingTop: 20,
+    },
+    title: {
+      top: 10,
+      fontSize: 30,
+      alignSelf: 'center',
+      marginBottom: 20,
+      color: '#333',
+      textShadowColor: '#888',
+    },   
+    viewNumber: {
+      flexDirection: "row",
+      justifyContent: "space-around"
+    },
+    headerInfo: {
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    profileImageContainer: {
+      position: 'relative',
+    },
+    profileImage: {
+      width: 80,
+      height: 80,
+      borderRadius: 40,
+    },
+    editIconContainer: {
+      position: 'absolute',
+      bottom: 0,
+      right: 0,
+      backgroundColor: '#ffffff',
+      borderRadius: 12,
+      padding: 4,
+    },
+    nameContainer: {
+      marginLeft: 20,
+    },
+    textFieldsContainer: {
+      marginTop: 20,
+    },
+    inputNames: {
+      alignSelf: "center",
+      width: 271,
+      height: 40,
+      borderWidth: 1,
+      borderRadius: 10,
+      borderColor: 'gray',
+      backgroundColor: '#f8f8f8',
+      marginBottom: 10,
+      paddingLeft: 10,
+    },
+    input: {
+      alignSelf: "center",
+      width: '95%',
+      height: 40,
+      borderWidth: 1,
+      borderRadius: 10,
+      borderColor: 'gray',
+      backgroundColor: '#f8f8f8',
+      marginBottom: 10,
+      paddingLeft: 10,
+    },
+    bioInput: {
+      alignSelf: "center",
+      height: 100,
+      width: '95%',
+      borderWidth: 1,
+      borderRadius: 10,
+      borderColor: 'gray',
+      backgroundColor: '#f8f8f8',
+      marginBottom: 10,
+      paddingLeft: 10,
+      paddingTop: 10,
+    },
+    buttonContainer: {
+      alignItems: 'center',
+      marginTop: 20,
+    },
+    button: {
+      backgroundColor: '#d3d3d3',
+      padding: 10,
+      width: '45%',
+      borderRadius: 15,
+      borderWidth: 1,
+      alignItems: 'center',
+    },
+    date: {
+      flexDirection: "row",
+    },
+    viewAddress: {
+      flexDirection: "row",
+      justifyContent: "space-around",
+    },
+    inputFecha: {
+      marginLeft: 10,
+      width: '65%',
+      height: 40,
+      borderWidth: 1,
+      borderRadius: 10,
+      borderColor: 'gray',
+      backgroundColor: '#f8f8f8',
+      marginBottom: 10,
+      paddingLeft: 10,
+    },
+    inputAddres: {
+      width: '65%',
+      height: 40,
+      borderWidth: 1,
+      borderRadius: 10,
+      borderColor: 'gray',
+      backgroundColor: '#f8f8f8',
+      marginBottom: 10,
+      paddingLeft: 10,
+    },
+    inputCode: {
+      width: '25%',
+      height: 40,
+      borderWidth: 1,
+      borderRadius: 10,
+      borderColor: 'gray',
+      backgroundColor: '#f8f8f8',
+      marginBottom: 10,
+      paddingLeft: 10,
+    },
+    line: {
+      borderBottomColor: '#ccc',
+      borderBottomWidth: 1,
+      marginBottom: 20,
+    },
+    inputNumber: {
+      alignSelf: "center",
+      width: '30%',
+      height: 40,
+      borderWidth: 1,
+      borderRadius: 10,
+      borderColor: 'gray',
+      backgroundColor: '#f8f8f8',
+      marginBottom: 10,
+      paddingLeft: 10,
+    },
+    inputEmail: {
+      alignSelf: "center",
+      width: '60%',
+      height: 40,
+      borderWidth: 1,
+      borderRadius: 10,
+      borderColor: 'gray',
+      backgroundColor: '#f8f8f8',
+      marginBottom: 10,
+      paddingLeft: 10,
+    },
+    textFecha: {
+      marginHorizontal: 10,
+      color: Platform.OS === 'ios' ? '#888' : '', 
+    }
+});
+
+export default styles;
